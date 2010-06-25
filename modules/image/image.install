@@ -224,5 +224,5 @@ function image_requirements($phase) {
     $requirements['image_gd']['title'] = t('GD library rotate and desaturate effects');
   }
 
-  return $requirements;
+//  return $requirements;
 }

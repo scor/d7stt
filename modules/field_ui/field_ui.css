@@ -1,0 +1,25 @@
+/* $Id: field_ui.css,v 1.2 2010/05/23 19:10:23 dries Exp $ */
+
+/* 'Manage fields' overview */
+#field-overview .label-add-new-field,
+#field-overview .label-add-existing-field {
+  float: left; /* LTR */
+}
+#field-overview tr.add-new .tabledrag-changed {
+  display: none;
+}
+#field-overview tr.add-new .description {
+  margin-bottom: 0;
+}
+#field-overview .new {
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+/* Manage display */
+.field-display-overview tr.region-title td {
+  font-weight: bold;
+}
+.field-display-overview tr.region-populated {
+  display: none;
+}
